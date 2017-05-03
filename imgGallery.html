@@ -57,6 +57,7 @@
     <button class="dark">Darken</button>
 </div>
 <div class="thumb-bar"></div>
+
 </body>
 <script>
     var displayedImage = document.querySelector('.displayed-img');
@@ -77,8 +78,6 @@
         }
     }
 
-
-
     /* Wiring up the Darken/Lighten button */
     btn.onclick=function(){
         if(this.getAttribute('class')=='dark'){
@@ -90,6 +89,6 @@
             this.textContent='Darken';
             overlay.style.backgroundColor='rgba(0,0,0,0)';
         }
-    }
+    };
 </script>
 </html>
