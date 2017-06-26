@@ -1,6 +1,6 @@
 .block-left {
   float: left;
-  width: 40%;
+  width: 35%;
   .content {
     z-index: 1;
     position: relative;
@@ -8,7 +8,7 @@
 }
 
 .block-right {
-  width: 60%;
+  width: 65%;
   float: right;
   overflow-y: auto;
 }
@@ -408,7 +408,7 @@ canvas {
 }
 
 .about-info {
-  text-align: left;
+  text-align: center;
   h1,
   h2 {
     font-size: 35px;
